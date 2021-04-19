@@ -9,5 +9,6 @@ app.listen(PORT, ()=>{
 });
 
 app.get('/', (req, res)=>{
-    res.send({ok: true});
+    res.send({ok: true,
+             text: "random text"});
 })
